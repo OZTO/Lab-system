@@ -55,12 +55,10 @@ require(['lib/jquery','util/request','util/funcTpl','lib/juicer'], function($, r
 
             //这是一个ajax请求，写法如下
             getNewsData:function(){
-              var args=getQueryStringArgs();
-              var year=args["year"];
              request.post(
               'http://rap.taobao.org/mockjsdata/10008/user/listUser.do',
               {
-                year:year
+                year:$('#year_member').val()
               },
              function(res){
 	               //在成功的回调函数里面，这句话就是用juicer把刚才newTpl的加上res的数据渲染出来,append进html里面
