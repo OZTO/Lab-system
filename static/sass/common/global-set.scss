@@ -1,0 +1,25 @@
+//项目宽度
+$global-w:960px;
+//背景蓝色
+$global-bg-b:#0076c9;
+//背景绿色
+$global-bg-g:#54bfbc;
+//背景红色
+$global-bg-r:#ee4242;
+//中间的白色背景
+$bg-color: #fcf9f9;
+$family:"微软雅黑";
+/*to 960px center*/
+.global-center{
+  margin-left: auto;
+  margin-right: auto;
+  width: $global-w;
+  background-color: $bg-color;
+  min-height: 500px;
+}
+/*for ie6/7*/
+.inline-block{
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+}

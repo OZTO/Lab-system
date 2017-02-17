@@ -1,0 +1,137 @@
+/*to 960px center*/
+.global-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: #fcf9f9;
+  min-height: 500px; }
+
+/*for ie6/7*/
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+body, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #eff0f0; }
+
+.global-center {
+  overflow: hidden; }
+  .global-center .side_left {
+    width: 230px;
+    float: left;
+    margin: 8px 16px 32px 16px; }
+    .global-center .side_left .dynamic {
+      height: 262px; }
+      .global-center .side_left .dynamic .title {
+        height: 46px;
+        line-height: 46px;
+        background: url("../../img/index/head.png") repeat-x; }
+        .global-center .side_left .dynamic .title .text {
+          margin-left: 12px;
+          color: #f65a5b;
+          font-size: 19px; }
+        .global-center .side_left .dynamic .title .more {
+          margin-left: 74px;
+          width: 40px;
+          height: 10px;
+          display: inline-block;
+          background: url("../../img/index/more.png") no-repeat; }
+        .global-center .side_left .dynamic .title a:hover {
+          background: url("../../img/index/more_red.png") no-repeat; }
+      .global-center .side_left .dynamic .list ul li {
+        border-bottom: 1px solid #cccdcd;
+        height: 38px; }
+        .global-center .side_left .dynamic .list ul li .tit {
+          display: block;
+          font-size: 12px;
+          margin-left: 12px;
+          margin-top: 4px;
+          margin-right: 12px;
+          line-height: 16px;
+          color: #4f4c4c; }
+          .global-center .side_left .dynamic .list ul li .tit .date {
+            float: right;
+            margin-right: 1em; }
+        .global-center .side_left .dynamic .list ul li a:hover {
+          color: #0076c9; }
+    .global-center .side_left .activity {
+      height: 262px;
+      margin-top: 12px; }
+      .global-center .side_left .activity .title {
+        height: 46px;
+        line-height: 46px;
+        background: url("../../img/index/head.png") repeat-x; }
+        .global-center .side_left .activity .title .text {
+          margin-left: 12px;
+          color: #f65a5b;
+          font-size: 19px; }
+        .global-center .side_left .activity .title .more {
+          margin-left: 74px;
+          width: 40px;
+          height: 10px;
+          display: inline-block;
+          background: url("../../img/index/more.png") no-repeat; }
+        .global-center .side_left .activity .title a:hover {
+          background: url("../../img/index/more_red.png") no-repeat; }
+      .global-center .side_left .activity .list ul li {
+        border-bottom: 1px solid #cccdcd;
+        height: 38px; }
+        .global-center .side_left .activity .list ul li .tit {
+          display: block;
+          font-size: 12px;
+          margin-left: 12px;
+          margin-top: 4px;
+          margin-right: 12px;
+          line-height: 16px;
+          color: #4f4c4c; }
+          .global-center .side_left .activity .list ul li .tit .date {
+            float: right;
+            margin-right: 6px; }
+        .global-center .side_left .activity .list ul li a:hover {
+          color: #0076c9; }
+  .global-center .content {
+    width: 684px;
+    height: 530px;
+    float: left;
+    margin-top: 14px;
+    background-color: #f1f3f3; }
+    .global-center .content .about_us {
+      height: 280px;
+      border-top: 3px solid #f65a5b; }
+      .global-center .content .about_us .text {
+        margin-left: 12px;
+        color: #f65a5b;
+        font-size: 19px; }
+      .global-center .content .about_us .picture {
+        width: 608px;
+        height: 234px;
+        margin: 0 auto;
+        margin-top: 18px;
+        margin-bottom: 20px; }
+      .global-center .content .about_us .para {
+        font-size: 15px;
+        color: #302f2f;
+        width: 640px;
+        line-height: 26px;
+        margin-left: 26px;
+        text-indent: 2em; }
+      .global-center .content .about_us .more {
+        float: right;
+        margin-right: 22px;
+        margin-top: 24px;
+        width: 40px;
+        height: 10px;
+        display: inline-block;
+        background: url("../../img/index/more.png") no-repeat; }
+      .global-center .content .about_us a:hover {
+        background: url("../../img/index/more_red.png") no-repeat; }
+
+/*# sourceMappingURL=../maps/page/index.css.map */
